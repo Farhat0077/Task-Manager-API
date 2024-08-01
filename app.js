@@ -16,6 +16,7 @@ app.use(notFound)
 app.use(errorHandlerMiddleware)
 
 const port= process.env.PORT || 3000
+// run this command For Windows PowerShell $env:PORT=4000 node app.js
 
 
 const start=async()=>{
